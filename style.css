@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('http://51.222.99.138:8011/loginbg.png');
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginformbox h3{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: -0.05em;
+text-align: center;
+color: #4A4A4A;
+
+}
+
+.loginformbox p{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: 
+#4A4A4A;
+margin-top: 6px;
+}
+
+    
+    .signupcontainer {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+
+
+
+
+    .formsection{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 160px;
+        overflow-y: scroll;
+
+    }
+    ::-webkit-scrollbar {
+        width: 2px;
+    }
+    
+
+    .companylogo{
+        margin-top: 220px;
+    }
+    .formheading{
+        font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: -0.05em;
+text-align: left;
+color: #4A4A4A;
+
+
+
+    }
+
+    .formtext{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+
+    .label{
+        color: rgba(27, 43, 65, 0.72);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        }
+        
+        .forminput input[type=text], [type=email], [type=password], [type=number], [type=tel], [type=date], select {
+          width: 100%;
+          padding: 9px 18px;
+          margin: 5px 0 !important;
+          display: inline-block;
+          border: 1px solid #F6F6F6;
+          font-size: 14px;
+          line-height: normal !important;
+          font-family: 'Poppins', sans-serif !important;
+          border-radius: 4px;
+          box-sizing: border-box;
+          background: #F6F6F6;
+          color: #999;
+          outline-color: transparent;
+        }
+
+
+        .formcontent{
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .forminput input[type=submit] {
+            font-family: inherit;
+            width: 100%;
+            font-size: 14px;
+            background: #007146;
+            color: white;
+            padding: 13px 27px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all .4s ease;
+          }
+
+    .imagesection{
+        width: 60%;
+        background-image: url('http://51.222.99.138:8011/signupbg.png');
+        padding: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: red;
+        height: 100%;
+        display: flex;
+
+    }
+
+    .imagetext{
+        display: flex;
+        margin-top: auto; 
+        font-family: Mulish;
+font-size: 17px;
+font-style: italic;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+    }
+
+    .terms{
+color: #222222;
+font-size: 15px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 10px;
+
+
+
+    }
+.terms span{
+
+font-weight: 700;
+
+
+
+
+}
+
+.logintxt{
+
+margin-top: 10px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+
+.logintxt a{
+    font-weight: 600;
+    color: #007146;
+    text-decoration: none;
+}
+
+.loginformbox{
+    padding: 30px;
+    background-color: white;
+
+}
+
+
+    @media screen and (max-width:1000px){
+        .signupcontainer{
+            flex-direction: column-reverse;
+            height: fit-content;
+        } 
+        .imagesection{
+            height: fit-content;
+            width: 100%;
+        }
+
+        .formsection{
+            padding: 60px;
+            overflow: visible;
+        }
+        .companylogo{
+            margin: auto;
+        }
+    }
+
+    
+    @media screen and (max-width:800px){
+
+
+        .formsection{
+            padding: 20px;
+        }
+ 
+    }
