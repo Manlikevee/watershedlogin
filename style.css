@@ -16,7 +16,7 @@ body{
 .login-container{
     width: 100%;
     height: 100vh;
-    background-image: url('http://51.222.99.138:8011/loginbg.png');
+    background-image: url('loginbg.png');
     background-color: red;
     background-size: cover;
     background-position: center;
@@ -152,7 +152,7 @@ text-align: left;
 
     .imagesection{
         width: 60%;
-        background-image: url('http://51.222.99.138:8011/signupbg.png');
+        background-image: url('signupbg.png');
         padding: 20px;
         background-size: cover;
         background-repeat: no-repeat;
