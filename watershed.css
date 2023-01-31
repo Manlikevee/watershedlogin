@@ -1,0 +1,19 @@
+.dashboardformcontainer{
+    background: white;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+
+@media screen and (max-width:1000px){
+
+
+    .dashboardformcontainer{
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+    }
+
+}

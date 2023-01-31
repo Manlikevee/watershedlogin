@@ -1,5 +1,5 @@
 
-gsap.to(".tween" , {stagger: 1, x:750, fill:"yellow",  duration:1, repeat:-1, yoyo: true, ease:"bounce"});
+gsap.to(".tween" , {stagger: 1, x:50, fill:"yellow",  duration:1, repeat:-1, yoyo: true, ease:"bounce"});
 
 
 gsap.fromTo(".fredo", {stagger: 1, x:750,  y:200, opacity:0, yoyo: true}, {x:20 , y:100, rotation:360, opacity:1,  duration:2, yoyo: true});

@@ -151,9 +151,9 @@ text-align: left;
           }
 
     .imagesection{
-        width: 60%;
+        width: 90%;
         background-image: url('signupbg.png');
-        padding: 20px;
+   
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -162,6 +162,37 @@ text-align: left;
         display: flex;
 
     }
+
+    .vh-100{
+        height: 100vh;
+        object-fit: cover;
+        text-align: left;
+    }
+    .carousel{
+        width: 100%;
+    }
+
+    .d-md-block h5{
+        text-align: left;
+font-size: 24px;
+font-weight: 900;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+
+    .d-md-block p{
+        text-align: left;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+
+    
 
     .imagetext{
         display: flex;
@@ -229,6 +260,15 @@ text-align: center;
             flex-direction: column-reverse;
             height: fit-content;
         } 
+        .vh-100{
+
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .carousel-item .vh-100{
+            display: none !important;
+        }
         .imagesection{
             height: fit-content;
             width: 100%;
@@ -252,3 +292,15 @@ text-align: center;
         }
  
     }
+
+
+
+    
+
+
+
+
+
+
+
+    
